@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Intro</title>
+        <style>
+            /*you can do multiple delcaration per selector */
+            /* tomato over rode on the p but font-family works for all tags */
+            body {font-family:Verdana, Geneva, Tahoma, sans-serif;
+                color: tomato;}
+            p {color: teal;
+            font-size: 2em; /* this hsould be twice default size*/
+            font-weight: bolder;
+            }
+            p, li {
+                text-align: center;
+                /*group selector, selcts more than one element */
+            }
+           li a {color: deeppink;}
+            /* Descendant selector -the space means that we are only styling a tags inside li tags */
+            #firstp {color: green;}
+            /* above is a id selector */
+            .otherthing {color: orange;}
+            /* above is a a calss selector */
+
+        </style>
+    </head>
+    <body>
+         <!--id value must be unique-->
+        
+        <p id="firstp">Lorem Ipsum <a href="http://www.google.com">Google</a></p>
+        <!-- class attribute values can be used over and over again-->
+        <p class="otherthing">Second paragram</p>
+        <p>Third paragraph</p>
+        <ul>
+            <li>My list items <a href="http://www.google.com">Google</a></li>
+        </ul>
+
+    </body>
+</html>
