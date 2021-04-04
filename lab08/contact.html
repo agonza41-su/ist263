@@ -6,15 +6,14 @@
     <title>Contact</title>
     <style>
         .info {float: top;}
-        .map {float: right;}
-        .form {float: left;}
+        .map {float: none;}
         
         .info {display: flex;}
         .info {flex: 2; order: 1; border-radius: 1em; ; background-color: #686b69; margin: 15px; padding: 15px;}
         
-        .map, .form  {display: flex;
-            
-            margin: 30px; background-color: black; border-radius: 1em; padding: 40px;}
+        .map {display: flex;
+            justify-content: space-between;
+            margin: 15px; background-color: black; border-radius: 1em; padding: 15px;}
         
     
         
@@ -51,8 +50,7 @@
        <br>
        <div class="map">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.001101780053!2d-76.13916438496634!3d43.02036397914804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f47f33b33ff7%3A0xc99a1b0d9e1367a8!2s2213%20Brighton%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614270762338!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-       </div>
-       <div class="form">
+     
        <form action="mailto:agonza41@syr.edu" method="post">
         <label for="firstname">Enter First Name</label>
         <input type="text" name="firstname" id="firstname"> <br>
