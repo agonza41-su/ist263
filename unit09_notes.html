@@ -21,6 +21,20 @@
 
             @media only screen and (max-width: 600px) {
                body {background-color: orange;}
+               .row1 div {padding: 0px;}
+               .row1 {padding: 0px;}
+               .sidebar {display: none;}
+               /* ^^ makes the selected item diappear */
+                }
+                /* the 600px is the media query is calleda breakpoint */
+                .maincontent   {
+                    width: 70%;
+                    float: left;
+                }
+                .sidebar {
+                    float: right;
+                    width: 20%;
+                    border: 1px solid orange;
                 }
 
 
@@ -29,7 +43,7 @@
     <body>
 
         <h1>Flexbox</h1>
-
+        <div class="maincontent">
         <!-- large width banner image -->
         <img src="https://laferger.github.io/ist263/images/forever_orange.jpg" alt="large campus banner" class="banner">
 
@@ -51,6 +65,13 @@
                 <p>Positions related to Career Goals</p>
             </div>
         </div>
+    </div> 
+    <div class="sidebar">
+        <aside>
+            <h2>What does Syracuse University Tution Cost?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </aside>
+    </div>
 
     </body>
 </html>
