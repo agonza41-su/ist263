@@ -10,3 +10,5 @@ nav {background-color: #fa73f1;}
 nav a:hover {background-color: #5a7094;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
+
+@media only screen and (max-width: 600px)  
