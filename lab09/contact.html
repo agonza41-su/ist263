@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="lab07styles.css">
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <style>
+        .info {float: top;}
+        .map {float: none;}
+        
+        .info {display: flex;}
+        .info {flex: 2; order: 1; border-radius: 1em; ; background-color: #686b69; margin: 15px; padding: 15px;}
+        
+        .map {display: flex;
+            justify-content: space-between;
+            margin: 15px; background-color: black; border-radius: 1em; padding: 15px;}
+        
+    
+        
+        
+       
+
+
+        
+
+
+    </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+        <h1>Contact</h1>
+        <div class="info">
+        <p>Anya Gonzalez <br>
+        2213 Brighton Place <br>
+        Syracuse, New York 13210 
+         </p>
+        
+
+        <a href="mailto:agonza41@syr.edu">Anya Gonzalez Email</a> <br>
+        
+
+        <a href="https://www.linkedin.com/in/anya-gonzalez/"><img src="../images/thumbnail_linkedingood_logo.png" alt="LinkedIn Logo">My LinkedIn Profile</a>
+    </div>
+        <br>
+       <br>
+       <div class="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.001101780053!2d-76.13916438496634!3d43.02036397914804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f47f33b33ff7%3A0xc99a1b0d9e1367a8!2s2213%20Brighton%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614270762338!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     
+       <form action="mailto:agonza41@syr.edu" method="post">
+        <label for="firstname">Enter First Name</label>
+        <input type="text" name="firstname" id="firstname"> <br>
+
+        <label for="comments">Enter your comments:</label> <br>
+        <textarea name="comments" id="comments" rows="8" cols="75">Type here</textarea> <br>
+
+        <p>Enter your Salutation</p>
+            <label for="salutation_mr">Mr.</label>
+            <input type="radio" name="salutation" id="salutation_mr" value="Mr.">
+            <label for="salutation_ms">Ms.</label>
+            <input type="radio" name="salutation" id="salutation_ms" value="Ms.">
+            <label for="salutation_dr">Dr.</label>
+            <input type="radio" name="salutation" id="salutation_dr" value="Dr."><br>
+
+            <label for="Urgent">Is this Urgent?</label>
+            <input type="checkbox" name="Urgent" id="Urgent"  value="Yes"> <br>
+
+            <input type="submit" value="Send Email">
+
+        </form>
+        </div>
+    </body>
+
+</html>
