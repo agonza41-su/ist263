@@ -3,7 +3,7 @@ color: #fa73f1;
 
 }
 h1 {color: #fa46d6;}
-a:link {color: #ffffff;}
+
 a:hover {color: #24edcb;}
 a:visited {color: #f0e159;}
 nav {background-color: #fa73f1;}
@@ -18,3 +18,5 @@ nav {margin-bottom: 30px;}
     nav a {margin: 1em ;}
 body {background-color: #4e4c4d;}
 }
+
+nav a:link {color: red;}

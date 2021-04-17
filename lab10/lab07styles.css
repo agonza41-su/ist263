@@ -1,0 +1,23 @@
+body {background-color: #302e2f;
+color: #fa73f1;
+
+}
+h1 {color: #fa46d6;}
+a:link {color: #ffffff;}
+a:hover {color: #24edcb;}
+a:visited {color: #f0e159;}
+nav {background-color: #fa73f1;}
+nav a:hover {background-color: #5a7094;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+}
+/*this positions based on top left of viewport and pushes the skip link off screen*/
+#skip:focus {
+    position: absolute;
+    left: 10px;}
