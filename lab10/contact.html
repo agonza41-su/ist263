@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en”>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="lab07styles.css">
     <meta charset="utf-8">
@@ -16,25 +16,7 @@
             justify-content: space-between;
             margin: 15px; background-color: black; border-radius: 1em; padding: 15px;}
 
-            #skip {
-                position: absolute;
-                left: -999px;
-                background-color: white;
-                border: 1px solid black;
-            }
-            /*this positions based on top left of viewport and pushes the skip link off screen*/
-            #skip:focus {
-                position: absolute;
-                left: 10px;
-            }
         
-
-    
-        
-    
-        
-        
-       
 
 
         
@@ -44,10 +26,12 @@
     </head>
     <body>
         <nav>
+            <a href="#maincontent" id="skip">Skip to Content</a>
             <a href="index.html.html">Home</a>
             <a href="skills.html">Skills</a>
             <a href="contact.html">Contact</a>
         </nav>
+
         <a id="maincontent"> </a>
         <h1>Contact</h1>
         <div class="info">
