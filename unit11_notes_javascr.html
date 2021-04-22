@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Unit 11 Notes</title>
+    <!--script tag is for embedding javascript-->
+        <script>
+            /*code is named SayHello, it must have curly brackets to start and end the named code. */
+            function SayHello() {
+                alert('Hello World');
+            /*alert is my function, paranthesis after, insdie quotes with a message, semi colon at end */
+            }
+            function SecondFunction(){
+                alert('Second Alert');
+            }
+            function ThirdFunction(){
+                alert('Third Alert');
+            }
+        </script>
+    </head>
+    <body onload="SayHello();">
+        <!-- This onload is telling our named code to run-->
+        <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </p>
+        <a href="http://www.google.com" onclick="SecondFunction();">Google</a>
+        <a href="" onclick="ThirdFunction();">Another Link</a>
+        <!-- These links both use onclick but run different javascript functions-->
+    </body>
+
+</html>

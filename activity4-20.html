@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en>">
+    <head>
+        <meta charset="utf-8">
+        <title>Particpation </title>
+        <script>
+            function Leaving() {
+                document.getElementById("message").innerHTML= "you left this form element";
+            
+            
+            }
+        </script>
+    </head>
+    <body>
+        
+            <form action="mailto:agonza41@syr.edu" method="POST">
+                
+                <label for="first">Enter First Name</label>
+               
+                <input type="text" name="first" id="first" onblur="Leaving();"> <br>
+
+                <label for="last">Enter Lastname</label>
+               
+                <input type="text" name="last" id="last"> <br>
+    
+              
+                <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
