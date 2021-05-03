@@ -1,4 +1,23 @@
 
-.img1 {float:left; margin-right: 10px;}
-
-
+body {background-color: #e6e3e3;
+color:#010f0d ;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;}
+h1 {color: #060145;}
+a:link {color: #ffffff;}
+a:hover {color: #d8d7e0;}
+a:visited {color: #07033b;}
+nav {background-color: #9591cf;}
+nav a:hover {background-color:#d8d7e0 ;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+}
+/*this positions based on top left of viewport and pushes the skip link off screen*/
+#skip:focus {
+    position: absolute;
+    left: 10px;}

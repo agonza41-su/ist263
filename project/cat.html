@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="stylesheet_project.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Project</title>
+        <style>
+            h2 {text-align: center;}
+            .breakfast {float: left;
+            margin-right: 20px;}
+           .gravy {float: left;
+        margin-right: 20px;}
+        .meatrice {float: left;
+        margin-right: 20px;}
+        .salmon {float: left;
+        margin-right: 20px;}
+        </style>
     </head>
     <body>
         <nav>
@@ -11,10 +23,12 @@
             <a href="recipe.html">Recipes For You</a>
             <a href="cat.html">Cat Recipes</a>
         </nav>
+        <a id="maincontent"></a>
+        <div id="catparent">
         <h1>Recipes for Your Cat</h1>
-        
+        <div id="breakfast">
         <h2>Kitty Breakfast</h2>
-        <img src="images/breakfastkitty.jfif">
+        <img src="images/breakfastkitty.jfif" id="breakfast" class="breakfast" width="450px">
         <h3>Ingredients</h3>
         <ul>
             <li>1 Tbsp nonfat dry milk</li>
@@ -29,9 +43,13 @@
             <li>Pour the micture into a small frying pan and cook on medium-low heat until it is done.</li>
             <li>Flip over like a pancake and spread cottage cheese and veggies over half of the cooked eggs. Then fold like an omelet. Once it is cool, proceed to cut it into bit-sized pieces to serve to your feline.</li>
         </ol>
+    </div>
         <br>
+
+        <div id="gravy">
+
         <h2>Kitty Chicken Gravy</h2>
-        <img src="images/kittygravy.jpg" class="gravy" alt="chicken gravy">
+        <img src="images/kittygravy.jpg" class="gravy" alt="chicken gravy" width="450px" height="400px">
         <h3>Ingredients</h3>
         <ul>
             <li>1/4 cup of Chicken liver</li>
@@ -47,8 +65,12 @@
             <li>Tkae a saucepan and pour thestock, flour, the meat, and salt. Continue to let it cooking over lowheat while stirring from time to time until the gracy is thick.</li>
             <li>Another option instead would be putting these ingredients into a blender to makea puree and perserve them as ice cubes for a longer period of time</li>
         </ol>
+    </div>
+    <br>
+
+        <div id="meat">
         <h2>Meat and Rice Dinner</h2>
-        <img src="images/meat_rice.png" class="meatrice" alt="Chunky meat and rice dish">
+        <img src="images/meat_rice.png" class="meatrice" alt="Chunky meat and rice dish" width="450px" height="400px">
         <h3>Ingredients</h3>
         <ul>
             <li>1/2 Pound Ground Meat (chicken, beef, lamb or turkey are fine)</li>
@@ -67,8 +89,11 @@
                 Place into an air-tight container and store in the fridge for up to 3 days.
                 </li>
         </ol>
+    </div>
+    <br>
+        <div id="salmon">
         <h2>Salmon Cat Treat</h2>
-        <img src="images/salmontreat.jpg" class="salmon" alt="Salmon Cat Treat">
+        <img src="images/salmontreat.jpg" class="salmon" alt="Salmon Cat Treat" width="450px" height="400px">
         <h3>Ingredients</h3>
         <ul>
             <li>10 oz Canned Salmon Undrained</li>
@@ -86,5 +111,7 @@
                 Store in an airtight container for up to 2 weeks.
                 </li>
         </ol>
+    </div>
+        </div>
     </body>
 </html>
