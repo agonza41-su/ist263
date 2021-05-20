@@ -9,7 +9,8 @@ a:hover {color: #d8d7e0;}
 a:visited {color: #8b94e0}
 nav {background-color: #0b094a;}
 nav a:hover {background-color:#d8d7e0 ;}
-nav {padding: 10px;}
+nav {padding: 10px; }
+span {color: #8b94e0;}
 nav {margin-bottom: 30px;}
 #skip {
     position: absolute;
