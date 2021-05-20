@@ -6,8 +6,8 @@ font-size: large;}
 h1 {color: #060145;}
 a:link {color: #ffffff;}
 a:hover {color: #d8d7e0;}
-a:visited {color: #07033b;}
-nav {background-color: #9591cf;}
+a:visited {color: #7b32fa;}
+nav {background-color: #0b094a;}
 nav a:hover {background-color:#d8d7e0 ;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
@@ -21,3 +21,4 @@ nav {margin-bottom: 30px;}
 #skip:focus {
     position: absolute;
     left: 10px;}
+.quote {float: right;}
